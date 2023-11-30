@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+## Financial Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Overview
+This financial management app provides users with tools to track their income, expenses, and savings, offering a comprehensive view of their financial situation. The application consists of several pages, each serving a specific purpose.
 
-## Available Scripts
+## Pages
+### Home Page
+- Overview of financial information.
+- Log in to the application.
+- Information about the developer, including experience, skills, and portfolio.
+- Guidelines on how to use the application and details about the technologies employed.
+- Add income and expense transactions, categorized by type.
+- View the latest transactions in a table.
+- Display financial statistics, including current savings in UAH, USD, and EUR, and a monthly breakdown.
 
-In the project directory, you can run:
+## Transactions
+- Add transactions by specifying the type (income or expense) and category.
+- View the latest transactions in a table format.
+- Modify or delete information for a specific reporting month.
 
-### `npm start`
+## Results Page
+The Financial Results page provides a comprehensive view of your financial information, including savings and monthly summaries.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- The "Savings" section displays accumulated savings in UAH, USD, and EUR, calculated based on monthly income and expenses.
+- The "Monthly Summary" table breaks down income, expenses, and savings for each month. Positive values indicate income, and negative values represent expenses.
+- Update, delete, or add information for a specific month using the provided buttons in each row.
+- Additional information is available with links to the "How to Use" page and the "Developer Info" page.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Instructions
+- Guidelines on how to use the application effectively.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Developer Page
+- Information about the developer, including experience, skills, and portfolio.
 
-### `npm run build`
+[Live Demo](https://budget-app-delta-six.vercel.app/) 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies
+- React
+- React Router for navigation
+- Redux Toolkit for state management
+- Bootstrap for styling
+- React-Bootstrap for UI components
+- React-Redux for state management
+- Axios for API requests
+- React-toastify for notifications
+- Uuidv4 for unique id
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Currency Exchange Rates and Other Data
+ Exchange rates and additional data are fetched through the API from the National Bank of Ukraine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
+To run the Users App locally on your machine, follow these steps:
 
-### `npm run eject`
+1. Clone the GitHub repository:
+ 
+```sh
+git clone https://github.com/Vasyl-Pavlenko/budget-app.git
+cd login-next
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install dependencies:
+```sh
+npm install
+# or
+yarn install
+```
+3. Run the application:
+```sh
+npm run start
+# or
+yarn run start
+```
+The application should now be running locally at http://localhost:3000
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## API Reference
+Currency exchange rates and other data are obtained from the National Bank of Ukraine API: NBU API
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributing
+Feel free to contribute by opening issues or submitting pull requests.
+## Author
+The author of this project is:  **Vasyl Pavlenko**
